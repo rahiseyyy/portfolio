@@ -188,11 +188,11 @@ body{
 
 .glowing-border{
   position:absolute;
-  inset:-15px;
+  inset:-30px;
   border-radius:50%;
   background:radial-gradient(circle,var(--main),transparent 70%);
-  filter:blur(40px);
-  animation:pulse 4s infinite;
+  filter:blur(10px);
+  animation:pulse 2s infinite;
   z-index:1;
 }
 
