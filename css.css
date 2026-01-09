@@ -75,20 +75,25 @@ body{
   align-items:center;
   justify-content:space-between;
   padding:120px 10% 60px;
+  
 }
 
 .home-content{
   max-width:520px;
+
 }
 
 .home-content h3{
   color:var(--main);
   letter-spacing:2px;
+  font-size: 50px;
+  
 }
 
 .home-content h1{
   font-size:3.2rem;
   margin:10px 0;
+  font-size: 190px;
 }
 
 .home-content h1 span{
@@ -174,6 +179,8 @@ body{
   position:relative;
   width:320px;
   height:320px;
+  transition: transform 2s ease;
+
 }
 
 .img-box img{
@@ -184,6 +191,13 @@ body{
   object-fit:cover;
   z-index:2;
   position:relative;
+  filter: grayscale(80);
+  transition: transform 2s ease;
+}
+
+.img-box img:hover{
+  filter: grayscale(0%);
+  border-color: var(--primary-color);
 }
 
 .glowing-border{
@@ -217,6 +231,7 @@ body{
 .about-content h2{
   font-size:2.6rem;
   margin-bottom:10px;
+  font-size: 90px;
 }
 
 .heading span{
@@ -260,6 +275,7 @@ body{
 
 .skill-item{
   margin-bottom:15px;
+
 }
 
 .skill-info{
@@ -304,6 +320,10 @@ body{
   box-shadow:0 0 30px var(--main);
 }
 
+.heading{
+  font-size: 90px;
+}
+ 
 .project-card img{
   width:100%;
   height:180px;
