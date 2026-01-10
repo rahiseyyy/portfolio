@@ -3,7 +3,7 @@
   --main:#3b82f6;
   --bg:#0b0f1a;
   --card:#111827;
-  --text:#ffffff;
+  --text:#3b82f6;
   --muted:#9ca3af;
 }
 
@@ -86,14 +86,13 @@ body{
 .home-content h3{
   color:var(--main);
   letter-spacing:2px;
-  font-size: 50px;
-  
+  font-size: 40px;
 }
 
 .home-content h1{
   font-size:3.2rem;
   margin:10px 0;
-  font-size: 190px;
+  font-size: 80px;
 }
 
 .home-content h1 span{
