@@ -183,7 +183,8 @@ body{
 }
 
 .img-box img{
-
+ margin-left: -150px;
+ margin-top: -40px;
   width:150%;
   height:150%;
   border-radius:50%;
@@ -196,8 +197,11 @@ body{
 
 
 .glowing-border{
+   margin-left: -150px;
+   margin-top: 70px;
+
   position:absolute;
-  inset:-30px;
+  inset:-70px;
   border-radius:50%;
   background:radial-gradient(circle,var(--main),transparent 70%);
   filter:blur(10px);
