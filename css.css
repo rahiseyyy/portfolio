@@ -183,21 +183,17 @@ body{
 }
 
 .img-box img{
-  width:100%;
-  height:100%;
+
+  width:150%;
+  height:150%;
   border-radius:50%;
   border:5px solid var(--card);
   object-fit:cover;
-  z-index:2;
-  position:relative;
-  filter: grayscale(80);
+  z-index:3;
+  position:relative; 
   transition: transform 2s ease;
 }
 
-.img-box img:hover{
-  filter: grayscale(0%);
-  border-color: var(--primary-color);
-}
 
 .glowing-border{
   position:absolute;
