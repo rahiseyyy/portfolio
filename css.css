@@ -2,10 +2,10 @@
 
 
 :root{
-    --main:#d4af37;   /* Gold */
+    --main:#e2ca7d;   /* Gold */
   --bg:#0b0b0b;     /* Pure Black */
   --card:#161616;   /* Dark Card */
-  --text:#f5f5f5;   /* White */
+  --text:#e2ca7d;   /* White */
   --muted:#a1a1aa;  /* Soft Gray */
 }
 
@@ -37,7 +37,7 @@ body{
   justify-content:space-between;
   align-items:center;
   background:rgba(11,15,26,0.8);
-  backdrop-filter:blur(7px);
+  backdrop-filter:blur(4px);
   z-index:1000;
 }
 
