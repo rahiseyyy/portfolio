@@ -1,182 +1,260 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rahis | Full Stack Developer</title>
 
     <!-- Icons & Fonts -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+      <a href="#" class="logo"><span>RAHIS</span></a>
 
-<!-- ================= HEADER ================= -->
-<header class="header">
-    <a href="#" class="logo"><span>RAHIS</span></a>
-
-    <nav class="navbar">
+      <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#project">Projects</a>
-        
-    </nav>
+        <a href="#journey">Journey</a>
+      </nav>
 
-    <div class="bx bx-menu" id="menu-icon"></div>
-</header>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
 
-<!-- ================= HOME ================= -->
-<section class="home" id="home">
-    <div class="home-content">
-       
+    <!-- ================= HOME ================= -->
+    <section class="home" id="home">
+      <div class="home-content">
         <h1><span>Arockia </span>Rahis</h1>
-        <h3 class="typing-text">I am a Designer & Developer<span class="text"></span></h3>
+        <h3 class="typing-text">
+          I am a Designer & Developer<span class="text"></span>
+        </h3>
 
-        
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/rahis-r-819750374/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/rahiseyyy"><i class='bx bxl-github'></i></a>
-            <a href="https://www.instagram.com/tom._.rahixx/"><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.linkedin.com/in/rahis-r-819750374/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/rahiseyyy"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/tom._.rahixx/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
         </div>
 
         <div class="btn-group">
-            <a href="#project" class="btn">View website</a>
-            <a href="#contact" class="btn-outline">Contact Me</a>
+          <a href="#project" class="btn">View website</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
         </div>
-    </div>
+      </div>
 
-    <div class="home-img">
+      <div class="home-img">
         <div class="img-box">
-            <div class="glowing-border"></div>
-         <img src="./assets/WhatsApp Image 2026-01-10 at 12.12.44 PM.jpeg" alt="rahis">
+          <div class="glowing-border"></div>
+          <img
+            src="./assets/WhatsApp Image 2026-01-10 at 12.12.44 PM.jpeg"
+            alt="rahis"
+          />
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- ================= ABOUT ================= -->
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="./assets/new.jpeg" alt="About Rahis">
-    </div>
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/new.jpeg" alt="About Rahis" />
+      </div>
 
-
-    
-    <div class="about-content">
+      <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Full Stack Developer</h3>
 
         <h3>
-            I am a passionate Full Stack Developer currently training at
-            <strong>Freshworks Academy</strong>. I specialize in crafting
-            responsive front-end interfaces and high-performance backend systems.
+          I am a passionate Full Stack Developer currently training at
+          <strong>Freshworks Academy</strong>. I specialize in crafting
+          responsive front-end interfaces and high-performance backend systems.
         </h3>
 
         <h3>
-            My tech stack includes <strong>HTML, CSS, JavaScript</strong> for
-            frontend development and <strong>Python with FastAPI</strong> for
-            backend services, along with <strong>PostgreSQL</strong> for data
-            management.
+          My tech stack includes <strong>HTML, CSS, JavaScript</strong> for
+          frontend development and <strong>Python with FastAPI</strong> for
+          backend services, along with <strong>PostgreSQL</strong> for data
+          management.
         </h3>
 
         <a href="#contact" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- ================= MY JOURNEY ================= -->
+    <section class="journey" id="journey">
+      <h2 class="heading">My <span>Journey</span></h2>
+
+      <div class="journey-grid">
+        <div class="journey-card">
+          <img src="./assets/collage_1.jpg" alt="Journey Image 1" />
+        </div>
+
+        <div class="journey-card">
+          <img src="./assets/collage_2.jpg" alt="Journey Image 2" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= IMAGE MODAL ================= -->
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Full Size Image" />
+      </div>
     </div>
-</section>
 
-<!-- ================= SKILLS ================= -->
-<section class="skills" id="skills">
-    <h2 class="heading">Tech <span>Stack</span></h2>
+    <!-- ================= SKILLS ================= -->
+    <section class="skills" id="skills">
+      <h2 class="heading">Tech <span>Stack</span></h2>
 
-    <div class="skills-container">
-
+      <div class="skills-container">
         <div class="skills-card">
-            <h3>Technical Skills</h3>
+          <h3>Technical Skills</h3>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>HTML / CSS</span><span>95%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:95%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>HTML / CSS</span><span>95%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 95%"></div>
+            </div>
+          </div>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>JavaScript</span><span>85%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:85%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>JavaScript</span><span>85%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 85%"></div>
+            </div>
+          </div>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>Python (FastAPI)</span><span>80%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:80%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Python (FastAPI)</span><span>80%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 80%"></div>
+            </div>
+          </div>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>PostgreSQL</span><span>95%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:95%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>PostgreSQL</span><span>95%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 95%"></div>
+            </div>
+          </div>
         </div>
 
         <div class="skills-card">
-            <h3>Soft Skills</h3>
+          <h3>Soft Skills</h3>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>Problem Solving</span><span>85%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:85%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Problem Solving</span><span>85%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 85%"></div>
+            </div>
+          </div>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>Creativity</span><span>95%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:95%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Creativity</span><span>95%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 95%"></div>
+            </div>
+          </div>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>Team Collaboration</span><span>90%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:90%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Team Collaboration</span><span>90%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 90%"></div>
+            </div>
+          </div>
 
-            <div class="skill-item">
-                <div class="skill-info"><span>Adaptability</span><span>90%</span></div>
-                <div class="skill-bar"><div class="bar-fill" style="width:90%"></div></div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Adaptability</span><span>90%</span>
             </div>
+            <div class="skill-bar">
+              <div class="bar-fill" style="width: 90%"></div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-</section>
+    <!-- ================= PROJECTS ================= -->
+    <section class="projects" id="project">
+      <h2 class="heading">Recent <span>Project</span></h2>
 
-<!-- ================= PROJECTS ================= -->
-<section class="projects" id="project">
-    <h2 class="heading">Recent <span>Project</span></h2>
-
-    <div class="project-grid">
-
+      <div class="project-grid">
         <div class="project-card">
-            <img src="./assets/pexels-mike-468229-1171084 (1).jpg" alt="Turf Booking">
-            <div class="project-info">
-                <h4>Turf Booking</h4>
-                <p>Play to win but enjoy the fun...!</p>
-                <a href=" https://rahiseyyy.github.io/Turf/">
-                    <i class='bx bx-right-arrow-alt'></i>
-                </a>
-            </div>
+          <img
+            src="./assets/pexels-mike-468229-1171084 (1).jpg"
+            alt="Turf Booking"
+          />
+          <div class="project-info">
+            <h4>Turf Booking</h4>
+            <p>Play to win but enjoy the fun...!</p>
+            <a href=" https://rahiseyyy.github.io/Turf/">
+              <i class="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
         </div>
+      </div>
 
-       
+      <div class="project-grid">
+        <div class="project-card">
+          <img
+            src="./assets/2802083.jpg"
+            alt="Turf Booking"
+          />
+          <div class="project-info">
+            <h4>BMW ShowCase</h4>
+            <p>A Site for showcasing BMW Models..</p>
+            <a href="https://rahixx-bmw.webflow.io/">
+              <i class="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-</section>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <p>&copy; 2026 Rahis. All Rights Reserved.</p>
+      <a href="#home" class="top-btn">
+        <i class="bx bx-up-arrow-alt"></i>
+      </a>
+    </footer>
 
-
-<!-- ================= FOOTER ================= -->
-<footer class="footer">
-    <p>&copy; 2026 Rahis. All Rights Reserved.</p>
-    <a href="#home" class="top-btn">
-        <i class='bx bx-up-arrow-alt'></i>
-    </a>
-</footer>
-
-<!-- Scripts -->
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="index.js"></script>
-
-</body>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
