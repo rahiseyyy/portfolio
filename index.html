@@ -1,247 +1,178 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rahis | Full Stack Developer</title>
 
-    <!-- Icons & Fonts -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahis | Full Stack Developer</title>
 
-    <link rel="stylesheet" href="css.css" />
-  </head>
-  <body>
-    <!-- ================= HEADER ================= -->
-    <header class="header">
-      <a href="#" class="logo"><span>RAHIS</span></a>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css.css" />
+</head>
 
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#project">Projects</a>
-        <a href="#journey">Journey</a>
-      </nav>
+<body>
 
-      <div class="bx bx-menu" id="menu-icon"></div>
-    </header>
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#" class="logo">RAHIS</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Projects</a>
+    </nav>
+  </header>
 
-    <!-- ================= HOME ================= -->
-    <section class="home" id="home">
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="container home-grid">
       <div class="home-content">
-        <h1><span>Arockia </span>Rahis</h1>
-        <p class="typing-text colorchange">I am a <span class="text"></span></p>
+        <h1>Hi, I'm <span>Arockia Rahis</span></h1>
+        <h3>I am a <span class="text"></span></h3>
 
         <div class="social-media">
-          <a href="https://www.linkedin.com/in/rahis-r-819750374/"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://github.com/rahiseyyy"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://www.instagram.com/tom._.rahixx/"
-            ><i class="bx bxl-instagram"></i
-          ></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
         </div>
 
-        <div class="btn-group">
-          <a href="#project" class="btn">View website</a>
-          <a href="#contact" class="btn-outline">Contact Me</a>
-        </div>
+        <a href="#project" class="btn">View Projects</a>
       </div>
 
       <div class="home-img">
-        <div class="img-box">
-          <div class="glowing-border"></div>
-          <img
-            src="./assets/WhatsApp Image 2026-01-10 at 12.12.44 PM.jpeg"
-            alt="rahis"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= ABOUT ================= -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="./assets/new.jpeg" alt="About Rahis" />
-      </div>
-
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Full Stack Developer</h3>
-
-        <h3>
-          I am a passionate Full Stack Developer currently training at
-          <strong>Freshworks Academy</strong>. I specialize in crafting
-          responsive front-end interfaces and high-performance backend systems.
-        </h3>
-
-        <h3>
-          My tech stack includes <strong>HTML, CSS, JavaScript</strong> for
-          frontend development and <strong>Python with FastAPI</strong> for
-          backend services, along with <strong>PostgreSQL</strong> for data
-          management.
-        </h3>
-
-        <a href="#contact" class="btn">Read More</a>
-      </div>
-    </section>
-
-    <!-- ================= MY JOURNEY ================= -->
-    <section class="journey" id="journey">
-      <h2 class="heading">My <span>Journey</span></h2>
-
-      <div class="journey-grid">
-        <div class="journey-card">
-          <img src="./assets/collage_1.jpg" alt="Journey Image 1" />
-        </div>
-
-        <div class="journey-card">
-          <img src="./assets/collage_2.jpg" alt="Journey Image 2" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= IMAGE MODAL ================= -->
-    <div id="imageModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <img id="modalImage" src="" alt="Full Size Image" />
+        <img src="./assets/WhatsApp Image 2026-01-10 at 12.12.44 PM.jpeg" alt="Rahis">
       </div>
     </div>
+  </section>
 
-    <!-- ================= SKILLS ================= -->
-    <section class="skills" id="skills">
-      <h2 class="heading">Tech <span>Stack</span></h2>
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
 
-      <div class="skills-container">
-        <div class="skills-card">
-          <h3>Technical Skills</h3>
+      <!-- TOP SECTION -->
+      <div class="about-top">
 
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>HTML / CSS</span><span>95%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 95%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item">
-            <div class="skill-info"><span>Designing</span><span>85%</span></div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 85%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item">
-            <div class="skill-info"><span>Python</span><span>80%</span></div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 80%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item">
-            <div class="skill-info"><span>webflow</span><span>95%</span></div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 95%"></div>
-            </div>
-          </div>
+        <!-- YOUR IMAGE -->
+        <div class="about-image">
+          <img src="./assets/new.jpeg" alt="Rahis">
         </div>
 
-        <div class="skills-card">
-          <h3>Soft Skills</h3>
+        <!-- ABOUT TEXT -->
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <p>
+           Hi, I’m Rahis, a passionate designer from Kanyakumari. I completed my Higher Secondary Education in 2025 and have since been focused on building my creative and technical skills.
+          My journey started with a strong interest in editing and graphic design, which gradually evolved into web design, app design, and logo creation. I genuinely enjoy transforming ideas into visually appealing and user-friendly digital experiences. Once I start a project, I dedicate myself fully to delivering high-quality results.
+          I am especially passionate about UI/UX design, where creativity meets functionality. I believe that great design is not just about appearance — it’s about creating smooth, meaningful experiences for users.
+          My father is a fisherman, and watching his hard work and dedication has shaped my mindset from a young age. It has taught me responsibility, consistency, and the importance of staying committed to my goals.
+          Beyond design, I am also a State-Level Football Player and a District-Level Javelin Throw Athlete. Sports have strengthened my discipline, focus, and teamwork — qualities that I bring into my professional journey as well.
+          </p>
+        </div>
 
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Problem Solving</span><span>85%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 85%"></div>
-            </div>
-          </div>
+      </div>
 
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Creativity</span><span>95%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 95%"></div>
-            </div>
-          </div>
+      <!-- BOTTOM GALLERY -->
+      <div class="about-gallery">
 
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Team Collaboration</span><span>90%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 90%"></div>
-            </div>
-          </div>
+  <!-- Photo 1 -->
+  <div class="gallery-card">
+    <img src="/assets/port.photo1.jpeg">
+  </div>
 
-          <div class="skill-item">
-            <div class="skill-info"><span>Figma</span><span>90%</span></div>
-            <div class="skill-bar">
-              <div class="bar-fill" style="width: 90%"></div>
-            </div>
-          </div>
+  <!-- Photo 2 -->
+  <div class="gallery-card">
+    <img src="/assets/collage_1.jpg">
+  </div>
+
+  <!-- Photo 3 -->
+  <div class="gallery-card">
+    <img src="/assets/collage_2.jpg">
+  </div>
+
+  <!-- Video -->
+  <div class="gallery-card video-card">
+    <video src="/assets/VID_20260223_141631.mp4" autoplay muted loop></video>
+  </div>
+
+</div>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+  <div class="container">
+    <h2 class="section-title">Tech Stack</h2>
+
+    <div class="skills-container">
+      
+      <!-- Technical Skills -->
+      <div class="skills-card">
+        <h3>Technical Skills</h3>
+
+        <p>HTML / CSS</p>
+        <div class="bar"><span class="html"></span></div>
+
+        <p>Webflow</p>
+        <div class="bar"><span class="webflow"></span></div>
+
+        <p>Figma</p>
+        <div class="bar"><span class="figma"></span></div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skills-card">
+        <h3>Soft Skills</h3>
+
+        <p>Creativity</p>
+        <div class="bar"><span class="creativity"></span></div>
+
+        <p>video editing</p>
+        <div class="bar"><span class="problem"></span></div>
+
+        <p>Communication</p>
+        <div class="bar"><span class="communication"></span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="project">
+  <div class="container">
+    <h1 class="section-title">Recent Projects</h1>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <a href="https://example.com/turf-booking" class="project-link">
+          <img src="./assets/pexels-mike-468229-1171084 (1).jpg">
+        </a>
+        <div class="project-info">
+          <h4>Turf Booking</h4>
+          <p>Online Turf Booking Website</p>
+          <a href="https://rahiseyyy.github.io/Turf/" class="btn">View Project</a>
         </div>
       </div>
-    </section>
 
-    <!-- ================= PROJECTS ================= -->
-    <section class="projects" id="project">
-      <h2 class="heading">Recent <span>Project</span></h2>
-
-      <div class="project-grid">
-        <a href=" https://rahiseyyy.github.io/Turf/">
-          <div class="project-card">
-            <img
-              src="./assets/pexels-mike-468229-1171084 (1).jpg"
-              alt="Turf Booking"
-            />
-            <div class="project-info">
-              <h4>Turf Booking</h4>
-              <p>Play to win but enjoy the fun...!</p>
-              <i class="bx bx-right-arrow-alt"></i>
-            </div>
-          </div>
+      <div class="project-card">
+        <a href="https://rahixx-bmw.webflow.io/" class="project-link">
+          <img src="./assets/2802083.jpg">
         </a>
+        <div class="project-info">
+          <h4>BMW Showcase</h4>
+          <p>Modern BMW Display Website</p>
+          <a href="https://example.com/bmw-showcase" class="btn">View Project</a>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
+  <footer class="footer">
+    <p>© 2026 Rahis. All Rights Reserved.</p>
+  </footer>
 
-      <div class="project-grid">
-        <a href="https://rahixx-bmw.webflow.io/">
-          <div class="project-card">
-            <img src="./assets/2802083.jpg" alt="Turf Booking" />
-            <div class="project-info">
-              <h4>BMW ShowCase</h4>
-              <p>A Site for showcasing BMW Models..7</p>
-              <i class="bx bx-right-arrow-alt"></i>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="index.js"></script>
+</body>
 
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-      <p>&copy; 2026 Rahis. All Rights Reserved.</p>
-      <a href="#home" class="top-btn">
-        <i class="bx bx-up-arrow-alt"></i>
-      </a>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="index.js"></script>
-  </body>
 </html>
