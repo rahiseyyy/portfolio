@@ -374,3 +374,21 @@ body {
     display: none;
   }
 }
+
+/* ================= FEATURED PROJECT ================= */
+
+.featured-project {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.featured-card {
+  width: 60%;
+  max-width: 800px;
+}
+
+.featured-card img {
+  height: 300px;
+  object-fit: cover;
+}
