@@ -1,6 +1,6 @@
 // ================= TYPED.JS ================= 
 const typed = new Typed('.text', {
-  strings: ['Designer','Frontend Developer', 'Backend Developer', 'Full Stack Developer'],
+  strings: ['Designer','Frontend Developer'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
